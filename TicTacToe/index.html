@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="title">Tic Tac Toe</h1>
+      <div class="winner__container hide">
+        <p id="message"></p>
+      </div>
+      <div class="container">
+        <div class="game">
+          <div onclick="disableDiv(this)" class="box clickable"></div>
+          <div onclick="disableDiv(this)" class="box clickable"></div>
+          <div onclick="disableDiv(this)" class="box clickable"></div>
+          <div onclick="disableDiv(this)" class="box clickable"></div>
+          <div onclick="disableDiv(this)" class="box clickable"></div>
+          <div onclick="disableDiv(this)" class="box clickable"></div>
+          <div onclick="disableDiv(this)" class="box clickable"></div>
+          <div onclick="disableDiv(this)" class="box clickable"></div>
+          <div onclick="disableDiv(this)" class="box clickable"></div>
+        </div>
+      </div>
+      <div>
+        <button class="style__button bg-color1" id="new__game__btn">
+          New Game
+        </button>
+        <button class="style__button bg-color2" id="reset__btn">
+          Reset Game
+        </button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
